@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    background-color: black;
+}
+
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.toolbar .start{
+    display: flex;
+    justify-content:space-between ;
+}
+.toolbar .start .menubutton{
+    width: 60px;
+    top:50%;
+    left: 70%;
+    transform: translate(50%,50%);
+    
+}
+.toolbar .start .line{
+    width: 20px;
+    height: 1px;
+    margin: 4px;
+    background-color: white;
+}
+.toolbar .start .logo{
+    background-color: aqua;
+    
+}
+
+
+.toolbar .middle{
+
+}
+
+.toolbar .end{
+
+}
